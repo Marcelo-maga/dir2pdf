@@ -1,0 +1,16 @@
+{
+  "name": "dir2pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelo-maga/dir2pdf.git"
+  },
+  "author": "Marcelo-maga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marcelo-maga/dir2pdf/issues"
+  },
+  "homepage": "https://github.com/Marcelo-maga/dir2pdf#readme"
+}
