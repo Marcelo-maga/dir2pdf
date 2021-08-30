@@ -1,6 +1,6 @@
 {
   "name": "dir2pdf",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "A simple module to turn a folder into a pdf file",
   "main": "index.js",
   "repository": {
@@ -18,5 +18,6 @@
     "image-size": "^1.0.0",
     "natural-compare-lite": "^1.4.0",
     "pdfkit": "^0.12.3"
-  }
+  },
+  "keywords": ["pdf", "image", "conveter"]
 }
