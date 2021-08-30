@@ -1,6 +1,6 @@
-# dir2pdf
+<h1 align="center">Dir2Pdf</h1>
 
-A simple module to turn a folder images into a Pdf file, following the order of the images.
+### A simple module to turn a folder images into a Pdf file, following the order of the images.
 
 # How to use?
 
