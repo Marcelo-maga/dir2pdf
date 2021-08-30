@@ -12,5 +12,11 @@
   "bugs": {
     "url": "https://github.com/Marcelo-maga/dir2pdf/issues"
   },
-  "homepage": "https://github.com/Marcelo-maga/dir2pdf#readme"
+  "homepage": "https://github.com/Marcelo-maga/dir2pdf#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "image-size": "^1.0.0",
+    "natural-compare-lite": "^1.4.0",
+    "pdfkit": "^0.12.3"
+  }
 }
