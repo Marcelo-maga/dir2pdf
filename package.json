@@ -1,6 +1,6 @@
 {
   "name": "dir2pdf",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "description": "A simple module to turn a folder into a pdf file",
   "main": "index.js",
   "repository": {

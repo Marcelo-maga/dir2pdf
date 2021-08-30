@@ -3,9 +3,9 @@ const image_size = require('image-size')
 const pdfkit = require('pdfkit');
 const naturalCompare = require("natural-compare-lite")
 
-export function dir2pdf(dir, outputPath){
+function dir2pdf(dir, outputPath){
   let doc = new pdfkit({ autoFirstPage: false })
-  fs.readdir(dir, function (files){
+  fs.readdir(dir, function (_,files){
     files.sort(naturalCompare).forEach( function (file){
       const filePath = `${dir}/${file}`;
         const size = image_size(filePath);
@@ -16,3 +16,5 @@ export function dir2pdf(dir, outputPath){
     doc.end();
   })
 }
+
+module.exports = dir2pdf
