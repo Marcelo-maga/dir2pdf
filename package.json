@@ -16,7 +16,9 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint --fix", "npm run test", "git add"
+      "eslint --fix", 
+      "npm run test --bail", 
+      "git add"
     ]
   },
   "repository": {

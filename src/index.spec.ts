@@ -1,5 +1,3 @@
-import "jest"
-
 test('dois mais dois é quatro', () => {
-    expect(2 + 2).toBe(4);
+    expect(2 + 2).toBe(4)
 });
